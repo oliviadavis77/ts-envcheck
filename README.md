@@ -1,12 +1,13 @@
-# Required-env Validator
+# Env Validator
 
-Ensure a robust startup by failing fast on missing required environment variables.
+Quickly ensure essential environment variables are present without any external dependencies.
 
-No external dependencies needed; it's all about the standard library.
+No external dependencies or services needed; it's all about the standard library.
 
 ```go
 ```
 envcheck.ts
 ```
-Check out the accompanying test file for usage examples.
 ```
+
+Check the test file adjacent to the source code for an example of how to use it.
