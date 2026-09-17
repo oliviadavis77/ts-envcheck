@@ -1,13 +1,11 @@
-# Env Validator
+# Required-env validator
 
-Quickly ensure essential environment variables are present without any external dependencies.
+Missing environment variables cause silent failures in production. This tool forces the process to exit immediately if required configuration is absent. It has zero external dependencies.
 
-No external dependencies or services needed; it's all about the standard library.
+TypeScript Envcheck relies strictly on the standard library. There is no third-party package to install or sidecar service to run just to validate config at startup.
 
-```go
 ```
 envcheck.ts
 ```
-```
 
-Check the test file adjacent to the source code for an example of how to use it.
+Run the TypeScript Envcheck test suite alongside the source code to see how it handles missing keys in practice.
